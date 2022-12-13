@@ -1,0 +1,42 @@
+#Queue {
+    height: 24vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 2em;
+    overflow: auto;
+    justify-content: flex-start;
+}
+
+.songCard{
+    margin: 5px;
+    padding:0.5em;
+    min-width: 10vw !important;
+    height: 15vh;
+    display: flex;
+    text-align: center;
+    background-color: #3a2e33;
+    border-radius: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 8px 0px;
+}
+
+.current-song{
+    
+}
+.verticalLine{
+    content: "";
+    display: block;
+    height: 44%;
+    width: 0.2em;
+    margin: 1em;
+    background: #2ad1de;
+    min-width: 2px;
+    border-radius: 2px;
+}
+.curent-queue{
+    display: flex;
+}

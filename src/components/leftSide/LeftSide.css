@@ -1,0 +1,44 @@
+.tabs-component {
+  height: 100vh;
+}
+
+.tab-panel {
+  height: 90vh;
+  width: 30vw;
+
+}
+
+.ToDo{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.ToDo::before{
+    background-image: url("/assets/work-in-progress.png");
+    background-size: 50px;
+    display: inline-block;
+    width: 50px; 
+    height: 50px;
+    content:"";
+    filter: invert();
+}
+
+.tab-list {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+button.iconButton.withLabel {
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9em;
+}
+button.iconButton.Big img {
+  width: 2em;
+  height: 2em;
+}

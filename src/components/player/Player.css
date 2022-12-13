@@ -1,0 +1,16 @@
+#Player {
+    /* background-color: brown; */
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    background-color: #000;
+}
+
+.ytp-chrome-top{
+    display: none !important;
+}
+.ytp-pause-overlay-container{
+    display: none !important;
+}
